@@ -7134,7 +7134,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 144.78) (xy 271.78 144.78)
+			(xy 279.4 144.78) (xy 271.78 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7844,7 +7844,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 148.59) (xy 280.67 144.78)
+			(xy 279.4 148.59) (xy 279.4 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9164,7 +9164,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 153.67) (xy 280.67 156.21)
+			(xy 279.4 153.67) (xy 279.4 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9244,7 +9244,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 156.21) (xy 271.78 156.21)
+			(xy 279.4 156.21) (xy 271.78 156.21)
 		)
 		(stroke
 			(width 0)
@@ -21090,7 +21090,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 280.67 151.13 0)
+		(at 279.4 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21098,7 +21098,7 @@
 		(dnp no)
 		(uuid "bb329603-ba21-49b7-a849-a5eb8a461fd4")
 		(property "Reference" "C46"
-			(at 278.638 149.098 0)
+			(at 277.368 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21106,7 +21106,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 277.368 151.13 0)
+			(at 276.098 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21114,7 +21114,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 280.67 151.13 0)
+			(at 279.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21123,7 +21123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 151.13 0)
+			(at 279.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21132,7 +21132,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 280.67 151.13 0)
+			(at 279.4 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
