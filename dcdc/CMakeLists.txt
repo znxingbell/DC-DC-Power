@@ -48,11 +48,17 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    ${CMAKE_SOURCE_DIR}/Core/User/main.cpp
+    ${CMAKE_SOURCE_DIR}/Core/User/pid.cpp
+    ${CMAKE_SOURCE_DIR}/Core/User/hrtim_manager.cpp
+    ${CMAKE_SOURCE_DIR}/Core/User/adc_manager.cpp
+
 )
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    ${CMAKE_SOURCE_DIR}/Core/User
 )
 
 # Add project symbols (macros)
