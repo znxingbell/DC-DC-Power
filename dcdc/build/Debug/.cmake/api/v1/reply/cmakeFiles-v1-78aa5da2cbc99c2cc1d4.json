@@ -153,8 +153,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/build/Debug",
-		"source" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc"
+		"build" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug",
+		"source" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc"
 	},
 	"version" : 
 	{

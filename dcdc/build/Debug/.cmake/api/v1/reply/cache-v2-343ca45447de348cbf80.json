@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/build/Debug"
+			"value" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/build/Debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc"
+			"value" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/cmake/gcc-arm-none-eabi.cmake"
+			"value" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1199,7 +1199,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/build/Debug"
+			"value" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug"
 		},
 		{
 			"name" : "dcdc_IS_TOP_LEVEL",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc"
+			"value" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc"
 		}
 	],
 	"kind" : "cache",

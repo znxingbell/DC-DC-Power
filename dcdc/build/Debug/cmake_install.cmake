@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhixinxiong/STM32Cube/Repository/dcdc
+# Install script for directory: /Users/zhixinxiong/Desktop/DC-DC-Power/dcdc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/zhixinxiong/STM32Cube/Repository/dcdc/build/Debug/cmake/stm32cubemx/cmake_install.cmake")
+  include("/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/cmake/stm32cubemx/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zhixinxiong/STM32Cube/Repository/dcdc/build/Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

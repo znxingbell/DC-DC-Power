@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhixinxiong/STM32Cube/Repository/dcdc/cmake/stm32cubemx
+# Install script for directory: /Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

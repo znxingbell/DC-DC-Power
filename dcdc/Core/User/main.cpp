@@ -1,14 +1,16 @@
 #include "main.h"
-#include "pid.hpp"
-
+#include "hrtim_manager.hpp"
+#include "adc_manager.hpp"
 
 /**
  * @brief      系统初始化函数
  * @param      NULL
  * @retval     NULL
  */
-extern "C" void UserInit(){
 
+extern "C" void UserInit(){ 
+    sampler.ADC_Init();
+    HRTIM_Init();
 }
 
 /**

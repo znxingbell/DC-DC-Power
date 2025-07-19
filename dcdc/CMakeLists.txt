@@ -52,6 +52,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/Core/User/pid.cpp
     ${CMAKE_SOURCE_DIR}/Core/User/hrtim_manager.cpp
     ${CMAKE_SOURCE_DIR}/Core/User/adc_manager.cpp
+    ${CMAKE_SOURCE_DIR}/Core/User/callback.cpp
 
 )
 

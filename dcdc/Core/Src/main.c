@@ -52,7 +52,8 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+extern void UserInit();
+extern void UserLoop();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -92,8 +93,9 @@ int main(void)
   MX_DMA_Init();
   MX_ADC1_Init();
   MX_HRTIM1_Init();
+  MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
-
+  UserInit();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -103,6 +105,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+    UserLoop();
   }
   /* USER CODE END 3 */
 }

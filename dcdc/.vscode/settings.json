@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
     "files.associations": {
-        "stdfloat": "cpp"
+        "stdfloat": "cpp",
+        "compare": "cpp"
     }
 }

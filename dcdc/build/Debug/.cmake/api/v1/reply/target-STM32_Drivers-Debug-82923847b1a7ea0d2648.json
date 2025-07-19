@@ -119,23 +119,23 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/Core/Inc"
+					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Core/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc"
+					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
+					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/STM32Cube/Repository/dcdc/Drivers/CMSIS/Include"
+					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",

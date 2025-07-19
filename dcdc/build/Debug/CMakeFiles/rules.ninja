@@ -45,7 +45,7 @@ rule CXX_COMPILER__dcdc_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__dcdc_Debug
-  command = $PRE_LINK && /opt/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++ $FLAGS -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T "/Users/zhixinxiong/STM32Cube/Repository/dcdc/STM32F334XX_FLASH.ld" --specs=nano.specs -Wl,-Map=dcdc.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage -Wl,--start-group -lstdc++ -lsupc++ -Wl,--end-group $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /opt/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/arm-none-eabi-g++ $FLAGS -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/STM32F334XX_FLASH.ld" --specs=nano.specs -Wl,-Map=dcdc.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage -Wl,--start-group -lstdc++ -lsupc++ -Wl,--end-group $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -72,7 +72,7 @@ rule C_COMPILER__STM32_Drivers_unscanned_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /opt/ST/STM32CubeCLT_1.18.0/CMake/bin/cmake --regenerate-during-build -S/Users/zhixinxiong/STM32Cube/Repository/dcdc -B/Users/zhixinxiong/STM32Cube/Repository/dcdc/build/Debug
+  command = /opt/ST/STM32CubeCLT_1.18.0/CMake/bin/cmake --regenerate-during-build -S/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc -B/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug
   description = Re-running CMake...
   generator = 1
 
