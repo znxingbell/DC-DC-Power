@@ -1,6 +1,6 @@
-/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/CMakeFiles/dcdc.dir
-/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/CMakeFiles/edit_cache.dir
-/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/CMakeFiles/rebuild_cache.dir
-/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
-/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
+C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/build/Debug/CMakeFiles/dcdc.dir
+C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/build/Debug/CMakeFiles/edit_cache.dir
+C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/build/Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

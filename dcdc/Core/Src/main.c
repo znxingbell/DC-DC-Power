@@ -21,6 +21,7 @@
 #include "adc.h"
 #include "dma.h"
 #include "hrtim.h"
+#include "tim.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -94,6 +95,7 @@ int main(void)
   MX_ADC1_Init();
   MX_HRTIM1_Init();
   MX_ADC2_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   UserInit();
   /* USER CODE END 2 */

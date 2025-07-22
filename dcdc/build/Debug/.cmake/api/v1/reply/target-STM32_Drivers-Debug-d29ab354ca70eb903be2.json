@@ -51,6 +51,12 @@
 		},
 		{
 			"path" : "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/./__/__/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_hrtim.c.obj"
+		},
+		{
+			"path" : "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/./__/__/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj"
+		},
+		{
+			"path" : "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/./__/__/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj"
 		}
 	],
 	"backtrace" : 1,
@@ -74,19 +80,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 74,
+				"line" : 77,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 76,
+				"line" : 79,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 75,
+				"line" : 78,
 				"parent" : 0
 			}
 		]
@@ -119,23 +125,23 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Core/Inc"
+					"path" : "C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/Core/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc"
+					"path" : "C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/Drivers/STM32F3xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
+					"path" : "C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/Drivers/CMSIS/Device/ST/STM32F3xx/Include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/Drivers/CMSIS/Include"
+					"path" : "C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -165,7 +171,9 @@
 				13,
 				14,
 				15,
-				16
+				16,
+				17,
+				18
 			]
 		}
 	],
@@ -198,7 +206,9 @@
 				13,
 				14,
 				15,
-				16
+				16,
+				17,
+				18
 			]
 		}
 	],
@@ -304,6 +314,18 @@
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
 			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_hrtim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c",
 			"sourceGroupIndex" : 0
 		}
 	],

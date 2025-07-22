@@ -10,7 +10,7 @@
 					[
 						1
 					],
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -24,7 +24,7 @@
 				},
 				{
 					"build" : "cmake/stm32cubemx",
-					"jsonFile" : "directory-cmake.stm32cubemx-Debug-4b19649788072bcc790a.json",
+					"jsonFile" : "directory-cmake.stm32cubemx-Debug-a874d3cc84b5982fda2e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22"
@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-82923847b1a7ea0d2648.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-d29ab354ca70eb903be2.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "dcdc::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dcdc-Debug-f7c00822db5320be16ff.json",
+					"jsonFile" : "target-dcdc-Debug-794718d2d3773ef525bb.json",
 					"name" : "dcdc",
 					"projectIndex" : 0
 				}
@@ -77,8 +77,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc/build/Debug",
-		"source" : "/Users/zhixinxiong/Desktop/DC-DC-Power/dcdc"
+		"build" : "C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc/build/Debug",
+		"source" : "C:/Users/znxingbell/Desktop/DC-DC-Power/dcdc"
 	},
 	"version" : 
 	{
