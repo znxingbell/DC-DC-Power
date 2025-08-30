@@ -9,7 +9,7 @@ enum class ControllerMode : uint8_t {
 
 class Controller {
 public:
-    static constexpr uint32_t TOTAL_COUNTER = 46080;
+    static constexpr uint32_t HALF_TOTAL_COUNTER = 23040;
     void controller_init();
     void implement_control(float32_t vhs, float32_t vls, float32_t is);
     void ToggleMode();
@@ -20,6 +20,8 @@ private:
     PID_TypeDef* Vpid;  // 电压PID控制器
     float32_t current_setpoint;
     float32_t voltage_setpoint;
+    float32_t duty_ratio;
+    uint16_t counter{0}; //分频计数器
     ControllerMode mode;  // 控制模式
 };
 

@@ -21,22 +21,20 @@ void SamplerTypeDef::ADC_Init() {
     HAL_ADC_Start_DMA(&hadc1, reinterpret_cast<uint32_t*>(buffer), BUFFER_SIZE);
 }
 
-uint16_t test_point;
-
 float32_t SamplerTypeDef::ADC_Decode(uint8_t offset) {
     float32_t output;
     uint16_t temp{0};
-    for(uint8_t i = 0; i < 8; i++) {
+    for(uint8_t i = 0; i < 4; i++) {
         temp += buffer[offset + i * 3];
     }
     switch(offset) {
         case 0:
-            output = static_cast<float32_t>(temp) * adc_ratio * 1.653f;
-            return output; // VHS
+            output = static_cast<float32_t>(temp) * adc_ratio * 3.3105f;
+            return fliter_rate * vhs + output * (1 - fliter_rate); // VHS
             break;
         case 1:
-            output = static_cast<float32_t>(temp) * adc_ratio * 1.649f;
-            return output; // VLS
+            output = static_cast<float32_t>(temp) * adc_ratio * 3.2735f;
+            return fliter_rate * vls + output * (1 - fliter_rate); // VLS
             break;
         case 2:
             if(sampler.counter < ADC_OffsetSampleTime) {
@@ -46,9 +44,8 @@ float32_t SamplerTypeDef::ADC_Decode(uint8_t offset) {
                     HAL_HRTIM_WaveformOutputStart(&hhrtim1, HRTIM_OUTPUT_TA1 | HRTIM_OUTPUT_TA2);
                 }
             }
-            test_point = temp;
-            output = (static_cast<float32_t>(temp)- sampler.current_offset) * adc_ratio * 1.25f;
-            return output * (1.0f - filter_rate) + is * filter_rate; // IS
+            output = (static_cast<float32_t>(temp)- sampler.current_offset) * adc_ratio * 0.6426f;
+            return fliter_rate * is + output * (1 - fliter_rate); // IS
             break;
     }
 

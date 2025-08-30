@@ -15,6 +15,7 @@ extern "C" void UserInit(){
     OLED_Init();
     sampler.ADC_Init();
     controller.controller_init();
+    controller.ToggleMode();
     HRTIM_Init();
     HAL_TIM_Base_Start_IT(&htim2);
 }

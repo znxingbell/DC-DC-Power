@@ -10,11 +10,11 @@ enum class ADC_Channel : uint8_t {
 class SamplerTypeDef {
 public:
     static constexpr uint8_t ADC_ReferenceSampleTime{40};
-    static constexpr uint8_t ADC_OffsetSampleTime{5};
+    static constexpr uint8_t ADC_OffsetSampleTime{20};
     static constexpr uint16_t FULL_SCALE{4095};
     static constexpr float32_t ADC_VREF{3.3f};
-    static constexpr uint8_t BUFFER_SIZE{24};
-    static constexpr float32_t filter_rate{0.66f};
+    static constexpr uint8_t BUFFER_SIZE{12};
+    static constexpr float32_t fliter_rate{0.1f};
     uint8_t counter{0};
     float32_t vhs{0.0f};
     float32_t vls{0.0f};
